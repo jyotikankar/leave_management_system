@@ -1,0 +1,96 @@
+.admin-login-bg {
+    background: linear-gradient(to right, #386099, #2b4a74);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .admin-login-card {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    width: 360px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .admin-login-card h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    color: #325e9b;
+    font-weight: 600;
+  }
+  
+  .admin-login-form .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 85%;
+    padding: 12px 40px 12px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: #325e9b;
+  }
+  
+  .input-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #386099;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: black;
+    color: white
+  }
+  
+  .register-link {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .register-link a {
+    color: #325e9b;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

@@ -1,0 +1,69 @@
+.faculty-form-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #d6d4d4;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.faculty-grid-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-group input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-buttons {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  padding: 10px 25px;
+  background-color: #0b0b0b;
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-buttons button:hover {
+  background-color: #ffffff;
+  border:1px solid black;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .faculty-grid-form {
+    grid-template-columns: 1fr;
+  }
+}
